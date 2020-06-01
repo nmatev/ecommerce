@@ -1,7 +1,7 @@
 module.exports = {
     "env": {
         "browser": true,
-        "es6": true
+        "es6": true,
     },
     "extends": [
         "eslint:recommended",
@@ -19,10 +19,18 @@ module.exports = {
         "sourceType": "module"
     },
     "plugins": [
-        "react"
+        "react",
+        "babel",
     ],
     "rules": {
-        "semi": ["error", "always"],
-        "quotes": ["error", "double"],
+        "babel/semi": 1,
+        "quotes": ["error", "single"],
+        "comma-dangle": ["error", {
+            "arrays": "awlays",
+            "objects": "awlays",
+            "imports": "awlays",
+            "exports": "awlays",
+            "functions": "awlays"
+        }],
     }
 };

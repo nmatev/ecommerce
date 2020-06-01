@@ -14,7 +14,7 @@ class ProductList extends Component {
   handleClick = (event) => {
     this.setState({
       counter: this.state.counter + 1
-    });
+    })
   }
 
   handleChange = event => {

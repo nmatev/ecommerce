@@ -14,7 +14,7 @@ const ProductPrice = () => {
         <p>
             Test me if you can! 
         </p>
-    )
-}
+    );
+};
 
 export default ProductPrice;
