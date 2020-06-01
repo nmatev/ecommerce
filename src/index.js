@@ -6,7 +6,7 @@ import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ProductList product={data[0]} counter={0} />
+    <ProductList product={data[0]} />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -28,7 +28,7 @@ class ProductCard extends Component {
     render() {
         const { image, title, brand, price } = this.props;
         return (
-            <div className="product-title" onMouseEnter={this.handleMouseOver} onMouseLeave={this.handleMouseOut}>
+            <div className="product-tile" onMouseEnter={this.handleMouseOver} onMouseLeave={this.handleMouseOut}>
                 <img className="product-image" src={image} alt={title} />
                 <div>
                     <span className="product-brand">{brand}</span>
